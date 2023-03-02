@@ -14,7 +14,7 @@
 /**
  * Root directory of Drupal installation.
  */
-print_r("Under Maintainance"); die; 
+
 define('DRUPAL_ROOT', getcwd());
 
 require_once DRUPAL_ROOT . '/includes/bootstrap.inc';
